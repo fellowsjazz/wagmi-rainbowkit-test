@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  justify-content: right;
 }
 
 .App-logo {
@@ -35,4 +36,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logIn {
+  display: flex;
+  padding: 10px;
+  align-items: right;
+  justify-content: right;
+}
+
+.main{
+  background-color: #7e9ba3;
+  height: 100vh;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
